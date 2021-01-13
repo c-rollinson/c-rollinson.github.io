@@ -101,7 +101,7 @@ function filterByTerm(
     input: Array<Link>, 
     searchTerm: string,
     lookupKey: string = "url"
-    ) {
+    ): Array<Link> {
     if (!searchTerm) throw Error("searchTerm cannot be empty");     //  If searchTerm is empty throw error
     if (!input.length) throw Error("input cannot be empty");        //  If there is no input at all throw an error
     const regex = new RegExp(searchTerm, "i");
@@ -119,10 +119,13 @@ const obj3: Link = {url: "string3"};
 const arrOfLinks: Array<Link> = [obj1, obj2, obj3];
 
 //  Declare the constant search term of type string to be "java"
-const term: string = "java";
+const term: string = "string3";
 
 //  Put it all together, make it nice.
 filterByTerm(arrOfLinks, term);
+
+//  NOTE: This is the syntax for if you want to console log out the result of a function
+console.log(filterByTerm(arrOfLinks, term));
 
 //  If a new type of interface is required that more or less will use a previous interface, it is possible to just 'extend' the interface with the following command. 
 //  For this example the interface 'Link' will be extended to include the input 'language: string'. 
@@ -138,6 +141,8 @@ const link1: translatedLink = {
     language: "en"
 }
 
+// ***********************************************
+// ***********************************************
 //  This section will investigate the object value retrieval. 
 
 //  Sample object, a person w/ some details about them 
@@ -178,7 +183,7 @@ const objP2: personMoreInfo={
 
 //  Console printing out the city and age of objP1
 console.log(objP1["city"]);
-console.log(objP2.name, objP2.age, objP2.glasses, objP2.height);
+console.log(objP2.name, objP2.age, objP2.glasses, objP2.height + "cm");
 
 //  We can decide what 'key' to use that can quickly change our search term with a variable, in this case 'key'. By changing 'const key= "?"' we can decide what to search for within the particular object
 //  Modify this as we want to play around searching.
@@ -192,5 +197,59 @@ function filterPerson(arr, term, key){
     });
 }
 
-filterPerson([objP1, objP3], "Sienna", "city");
-console.log(filterPerson);
+//  This console log will output the result of the inquiry of "for the list of people, filter to whoever matches the city term of 'Brisbane', ie. Kyle" Change the city name to search for other users
+console.log(filterPerson([objP1, objP3], "Brisbane", "city"));
+
+//  This is how you insert a function into an interface
+interface Iperson {
+    name: string;
+    city: string;
+    age: number;
+    printDetails?(): void;      //  Note that the print details is an optional parameter
+}
+
+const tom: Iperson ={
+    name: "Tom",
+    city: "Munich",
+    age: 33,    
+    printDetails: function() {
+        return `${this.name} - ${this.city}`;
+    }
+};
+
+//  THIS will console.log print out the printDetails function, ie. the name and city. 
+console.log(tom.printDetails());
+
+// ***********************************************
+// ***********************************************
+// ***********************************************
+
+//  Note on TYPE: Type is similiar to interface yet different. It can be used to selectively decide an interface's element's 'type of' in a more adjustable manner. 
+//  Example: 
+
+type Authenticated = boolean | number | string; 
+
+interface testExample {
+    authenticated: Authenticated,       //  Allows any input of the type 'Authenticated', specified above
+    name: string;                       //  Allows specifically a string type. 
+}
+
+// ***********************************************
+// ***********************************************
+// ***********************************************
+
+interface nameAge {
+    first: string;
+    second: string;
+    third: number;
+}
+
+const myself: nameAge ={
+    first: "Conor",
+    second: "Rollinson",
+    third: 26
+};
+
+console.log(myself.third);
+
+// Test comment2

@@ -1,6 +1,6 @@
 //  https://www.freecodecamp.org/news/learn-typescript-in-5-minutes-13eda868daeb/
 //  
-//  
+//  GOOD RESOURCE: https://www.valentinog.com/blog/typescript/
 //  
 var test = {
     prop: 42,
@@ -44,15 +44,18 @@ var Car = /** @class */ (function () {
 }());
 //  This is a Prius car for testing purposes. Inputting the values of the prius car per the 'CAR' class
 var Prius = new Car('Prius', 2, 'Red', true);
+//  Calling the function to console.log the information
+Prius.displayMake();
 //  Function is of the form of an array of links and a search term
-function filterByTerm(input, searchTerm) {
+function filterByTerm(input, searchTerm, lookupKey) {
+    if (lookupKey === void 0) { lookupKey = "url"; }
     if (!searchTerm)
         throw Error("searchTerm cannot be empty"); //  If searchTerm is empty throw error
     if (!input.length)
         throw Error("input cannot be empty"); //  If there is no input at all throw an error
     var regex = new RegExp(searchTerm, "i");
     return input.filter(function (arrayElement) {
-        return arrayElement.url.match(regex);
+        return arrayElement[lookupKey].match(regex);
     });
 }
 //  Declaring three objects to be of type: Link
@@ -62,9 +65,11 @@ var obj3 = { url: "string3" };
 //  Declaring an array of the above Link objects. Note that this an array of type: Link
 var arrOfLinks = [obj1, obj2, obj3];
 //  Declare the constant search term of type string to be "java"
-var term = "java";
+var term = "string3";
 //  Put it all together, make it nice.
 filterByTerm(arrOfLinks, term);
+//  NOTE: This is the syntax for if you want to console log out the result of a function
+console.log(filterByTerm(arrOfLinks, term));
 //  Test case for the new translatedLink interface
 var link1 = {
     description: "flavour text woot",
@@ -73,11 +78,55 @@ var link1 = {
     language: "en"
 };
 ;
+//  Naming object objP1 to avoid naming conflict present in url example in above code
 var objP1 = {
     name: "Paolo",
     city: "Sienna",
     age: 33
 };
-console.log(objP1.city);
-console.log(obj1.url);
+//  Retroactively adding another person for a test
+var objP3 = {
+    name: "Kyle",
+    city: "Brisbane",
+    age: 27
+};
+var objP2 = {
+    name: "David",
+    city: "Sydney",
+    age: 29,
+    height: 198,
+    glasses: true
+};
+//  Console printing out the city and age of objP1
+console.log(objP1["city"]);
+console.log(objP2.name, objP2.age, objP2.glasses, objP2.height + "cm");
+//  We can decide what 'key' to use that can quickly change our search term with a variable, in this case 'key'. By changing 'const key= "?"' we can decide what to search for within the particular object
+//  Modify this as we want to play around searching.
+var key = "age";
+console.log(objP2[key], objP1[key]);
+//  More testing with new ways to adjust things. 
+function filterPerson(arr, term, key) {
+    return arr.filter(function (person) {
+        return person[key].match(term);
+    });
+}
+//  This console log will output the result of the inquiry of "for the list of people, filter to whoever matches the city term of 'Brisbane', ie. Kyle" Change the city name to search for other users
+console.log(filterPerson([objP1, objP3], "Brisbane", "city"));
+var tom = {
+    name: "Tom",
+    city: "Munich",
+    age: 33,
+    printDetails: function () {
+        return this.name + " - " + this.city;
+    }
+};
+//  THIS will console.log print out the printDetails function, ie. the name and city. 
+console.log(tom.printDetails());
+var myself = {
+    first: "Conor",
+    second: "Rollinson",
+    third: 26
+};
+console.log(myself.third);
+// Test comment2
 //# sourceMappingURL=main.js.map

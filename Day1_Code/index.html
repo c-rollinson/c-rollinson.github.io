@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css";>
+    <script src="out\main.js"></script>
+    <script src="TestTreeClick.js"></script>
+
+    
+</head>
+<body style="text-align: center;" ID="button2">
+    <h1>Test title</h1> 
+    <h1>Title 2 2 2 2</h1>
+    <section style="color:red;">Textfsafds</section><p>fdsafds</p>
+    <button onclick = "setUserName()">Change user</button>
+    <p>
+        <a href= "https://www.valentinog.com/blog/typescript/" id='Link1'> This is a link</a>   <!comment__this is a comment  Tree_white width=449 height=481  __>
+        <br>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn"> Another link, this one to Mozilla tutorials <br> </a>
+        <br>
+
+    <button onclick="document.GetElementById('Link1').style.fontSize='30px'"> Test button Link font </button> 
+    <br><br><br>
+        
+        <!__ These next 3 lines insert an image w/ 2 buttons. Pressing the relevant button changes the image source__>
+        <img src="img/Tree_black.PNG" width="200" height= "200" id = "clickToChange" onclick="changeImage()" title="Click me for a secret :)"></img>
+        <br><br>
+        <button onclick="document.getElementById('clickToChange').src='img/Tree_black.PNG'">Black Tree</button>
+        <button onclick="document.getElementById('clickToChange').src='img/Tree_white.PNG'">White Tree</button>
+
+    </p>
+<p style="color:red;"> test paragraph 2</p>
+<button onclick = "titleColour()">Change title Colour</button>
+</body>
+</html>

@@ -1,6 +1,6 @@
 //  https://www.freecodecamp.org/news/learn-typescript-in-5-minutes-13eda868daeb/
 //  
-//  
+//  GOOD RESOURCE: https://www.valentinog.com/blog/typescript/
 //  
 var test = {
     prop: 42,
@@ -65,9 +65,11 @@ var obj3 = { url: "string3" };
 //  Declaring an array of the above Link objects. Note that this an array of type: Link
 var arrOfLinks = [obj1, obj2, obj3];
 //  Declare the constant search term of type string to be "java"
-var term = "java";
+var term = "string3";
 //  Put it all together, make it nice.
 filterByTerm(arrOfLinks, term);
+//  NOTE: This is the syntax for if you want to console log out the result of a function
+console.log(filterByTerm(arrOfLinks, term));
 //  Test case for the new translatedLink interface
 var link1 = {
     description: "flavour text woot",
@@ -97,7 +99,7 @@ var objP2 = {
 };
 //  Console printing out the city and age of objP1
 console.log(objP1["city"]);
-console.log(objP2.name, objP2.age, objP2.glasses, objP2.height);
+console.log(objP2.name, objP2.age, objP2.glasses, objP2.height + "cm");
 //  We can decide what 'key' to use that can quickly change our search term with a variable, in this case 'key'. By changing 'const key= "?"' we can decide what to search for within the particular object
 //  Modify this as we want to play around searching.
 var key = "age";
@@ -108,5 +110,22 @@ function filterPerson(arr, term, key) {
         return person[key].match(term);
     });
 }
-filterPerson([objP1, objP3], "Sienna", "city");
-console.log(filterPerson);
+//  This console log will output the result of the inquiry of "for the list of people, filter to whoever matches the city term of 'Brisbane', ie. Kyle" Change the city name to search for other users
+console.log(filterPerson([objP1, objP3], "Brisbane", "city"));
+var tom = {
+    name: "Tom",
+    city: "Munich",
+    age: 33,
+    printDetails: function () {
+        return this.name + " - " + this.city;
+    }
+};
+//  THIS will console.log print out the printDetails function, ie. the name and city. 
+console.log(tom.printDetails());
+var myself = {
+    first: "Conor",
+    second: "Rollinson",
+    third: 26
+};
+console.log(myself.third);
+// Test comment2
