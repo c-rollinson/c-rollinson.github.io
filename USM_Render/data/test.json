@@ -1,0 +1,103 @@
+{
+    "data": {
+        "Floors": [
+            {
+                "Area": 453,
+                "Brief": "",
+                "High": 0,
+                "ImageLayer": [
+                ],
+                "Name": "floor1",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -108,
+                            185,
+                            -102,
+                            -29,
+                            112,
+                            -26,
+                            104,
+                            186
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                ],
+                "Rooms": [
+                    {
+                        "Area": 126,
+                        "AreaStatus": 1,
+                        "BrandShop": 96954184,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -5,
+                            91
+                        ],
+                        "MateId": 0,
+                        "Name": "room",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -71,
+                                    117,
+                                    -63,
+                                    34,
+                                    62,
+                                    36,
+                                    55,
+                                    119,
+                                    -11,
+                                    153
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1624016,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 1
+            }
+        ],
+        "building": {
+            "Adcode": "",
+            "Address": "",
+            "Area": 481,
+            "Brief": "",
+            "FloorsId": "1",
+            "FrontAngle": 0,
+            "GroundFloors": 1,
+            "High": 0,
+            "Mall": 1631462,
+            "Name": "buildingA",
+            "Name_en": "",
+            "Outline": [
+                [
+                    [
+                        108,
+                        189,
+                        116,
+                        -30,
+                        -106,
+                        -32,
+                        -109,
+                        188
+                    ]
+                ]
+            ],
+            "Tel": "",
+            "Time": "",
+            "Type": "0",
+            "UnderFloors": 0,
+            "Version": 7340078,
+            "_xLon": 1.001326525625222e-307,
+            "_yLat": 1.8692073574693885e-306
+        }
+    }
+}

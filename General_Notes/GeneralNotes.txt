@@ -1,0 +1,10 @@
+Changes necessary for cn_map program to work
+
+Change variable for funcAreas to Rooms. 
+Changed the *= math function to /= for the camera controls to zoom properly. 
+        ->  Also resolved this for the mouse wheel click to pan in/out by multiplying the zoom by some values. 
+Change the mouse wheel camera zoom function to fix the mouse wheel only zooming out bug introduced by the previous fix
+Changed the .src directory for the map to "/edits". 
+
+
+Removed two Kanji heavy documents to a new folder in "data"
