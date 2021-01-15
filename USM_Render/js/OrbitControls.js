@@ -249,6 +249,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
     }
 
+
     function onMouseDown( event ) {
 
         if ( scope.enabled === false ) return;
@@ -413,6 +414,7 @@ THREE.OrbitControls = function ( object, domElement ) {
             case scope.keys.PAN:
                 state = STATE.PAN;
                 break;
+
 
         }
 
