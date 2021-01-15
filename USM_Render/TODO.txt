@@ -1,0 +1,12 @@
+TODO
+
+implement:
+	grid system overlay for dimensions
+	mouse line 'snap to grid' functionality
+	visual scale showing length of something constantly on ui (ie. |___5m___|
+	Improve the ruler tool to be able to actually measure things instead of setting the scale
+	Change ruler tool to allow for node snapping to the edges of objects
+	FUTURE: add a basic known cube for reference height (ie. 5m x 5m)
+
+Changelist:
+	Basic features to english from chinese
