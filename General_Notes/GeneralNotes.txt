@@ -8,3 +8,8 @@ Changed the .src directory for the map to "/edits".
 
 
 Removed two Kanji heavy documents to a new folder in "data"
+
+
+https://medium.com/chialab-open-source/location-based-gps-augmented-reality-on-the-web-7a540c515b3c
+
+https://dev.to/pahund/animating-camera-movement-in-three-js-17e9
