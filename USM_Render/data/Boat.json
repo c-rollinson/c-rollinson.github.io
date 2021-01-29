@@ -1,0 +1,1094 @@
+{
+    "data": {
+        "Floors": [
+            {
+                "Area": 2449,
+                "Brief": "",
+                "High": 2,
+                "ImageLayer": [
+                ],
+                "Name": "Deck 4",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -981,
+                            297,
+                            -181,
+                            298,
+                            1,
+                            254,
+                            86,
+                            201,
+                            11,
+                            129,
+                            -164,
+                            48,
+                            -984,
+                            38
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -332,
+                                    190
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1919360
+                    }
+                ],
+                "Rooms": [
+                    {
+                        "Area": 500,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -793,
+                            193
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -977,
+                                    291,
+                                    -824,
+                                    291,
+                                    -827,
+                                    199,
+                                    -686,
+                                    196,
+                                    -682,
+                                    292,
+                                    -643,
+                                    292,
+                                    -647,
+                                    135,
+                                    -831,
+                                    155,
+                                    -839,
+                                    44,
+                                    -981,
+                                    44
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1894770,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 172,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -532,
+                            246
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -636,
+                                    288,
+                                    -637,
+                                    206,
+                                    -427,
+                                    204,
+                                    -430,
+                                    288
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1915322,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 169,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -310,
+                            244
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -415,
+                                    285,
+                                    -414,
+                                    205,
+                                    -206,
+                                    202,
+                                    -208,
+                                    285
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1900790,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 106,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -79,
+                            231
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -179,
+                                    277,
+                                    -175,
+                                    202,
+                                    46,
+                                    203,
+                                    -10,
+                                    242
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1909106,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 148,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -74,
+                            136
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -3,
+                                    135,
+                                    -166,
+                                    55,
+                                    -171,
+                                    175,
+                                    43,
+                                    182
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1918350,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 464,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -473,
+                            108
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -203,
+                                    168,
+                                    -198,
+                                    59,
+                                    -635,
+                                    51,
+                                    -636,
+                                    100,
+                                    -584,
+                                    101,
+                                    -583,
+                                    172
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1921537,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 1
+            },
+            {
+                "Area": 1125,
+                "Brief": "",
+                "High": 0,
+                "ImageLayer": [
+                ],
+                "Name": "Deck 3",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -978,
+                            291,
+                            -525,
+                            293,
+                            -525,
+                            46,
+                            -980,
+                            42
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -338,
+                                    182
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1899622
+                    },
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -200,
+                                    176
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1910737
+                    }
+                ],
+                "Rooms": [
+                    {
+                        "Area": 315,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -351,
+                            244
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -517,
+                                    292,
+                                    -183,
+                                    293,
+                                    -190,
+                                    196,
+                                    -516,
+                                    198
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1907855,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 277,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -346,
+                            92
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -514,
+                                    48,
+                                    -512,
+                                    136,
+                                    -186,
+                                    131,
+                                    -172,
+                                    53
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1896787,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 321,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -51,
+                            186
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -171,
+                                    287,
+                                    -157,
+                                    61,
+                                    7,
+                                    136,
+                                    71,
+                                    198,
+                                    -7,
+                                    249
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1915812,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 2
+            },
+            {
+                "Area": 2422,
+                "Brief": "",
+                "High": 0,
+                "ImageLayer": [
+                ],
+                "Name": "Deck 2",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -979,
+                            296,
+                            -182,
+                            295,
+                            1,
+                            254,
+                            86,
+                            200,
+                            12,
+                            131,
+                            -164,
+                            49,
+                            -985,
+                            38
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -219,
+                                    172
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1903614
+                    },
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -396,
+                                    74
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1924697
+                    }
+                ],
+                "Rooms": [
+                    {
+                        "Area": 142,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -912,
+                            234
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -977,
+                                    290,
+                                    -847,
+                                    290,
+                                    -850,
+                                    179,
+                                    -977,
+                                    179
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1905252,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 316,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -843,
+                            101
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -978,
+                                    161,
+                                    -707,
+                                    159,
+                                    -709,
+                                    44,
+                                    -981,
+                                    43
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1900796,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 254,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -718,
+                            235
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -836,
+                                    289,
+                                    -600,
+                                    289,
+                                    -600,
+                                    181,
+                                    -839,
+                                    183
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1926167,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 243,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -579,
+                            103
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -694,
+                                    155,
+                                    -694,
+                                    50,
+                                    -461,
+                                    50,
+                                    -468,
+                                    157
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1923916,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 745,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -208,
+                            198
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -581,
+                                    188,
+                                    -194,
+                                    190,
+                                    -181,
+                                    57,
+                                    -6,
+                                    135,
+                                    71,
+                                    197,
+                                    -6,
+                                    249,
+                                    -188,
+                                    287,
+                                    -584,
+                                    287
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1920654,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 3
+            },
+            {
+                "Area": 1973,
+                "Brief": "",
+                "High": 0,
+                "ImageLayer": [
+                ],
+                "Name": "Deck 1",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -193,
+                            295,
+                            -188,
+                            49,
+                            -981,
+                            40,
+                            -979,
+                            294
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -384,
+                                    82
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1922368
+                    },
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -619,
+                                    254
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1919777
+                    },
+                    {
+                        "Brief": "",
+                        "Name": "Gangway",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -358,
+                                    287
+                                ]
+                            ]
+                        ],
+                        "Type": "22006",
+                        "_id": 1913240
+                    }
+                ],
+                "Rooms": [
+                    {
+                        "Area": 1902,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -586,
+                            169
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -975,
+                                    289,
+                                    -197,
+                                    292,
+                                    -192,
+                                    53,
+                                    -980,
+                                    42
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1899753,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 4
+            },
+            {
+                "Area": 470,
+                "Brief": "",
+                "High": 0,
+                "ImageLayer": [
+                ],
+                "Name": "Tower 1",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -417,
+                            224,
+                            -416,
+                            76,
+                            -670,
+                            76,
+                            -669,
+                            261,
+                            -417,
+                            263
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -636,
+                                    112
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1917130
+                    },
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -644,
+                                    240
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1901326
+                    }
+                ],
+                "Rooms": [
+                    {
+                        "Area": 427,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -543,
+                            168
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -666,
+                                    256,
+                                    -423,
+                                    257,
+                                    -420,
+                                    80,
+                                    -664,
+                                    82
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1926060,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 5
+            },
+            {
+                "Area": 358,
+                "Brief": "",
+                "High": 0,
+                "ImageLayer": [
+                ],
+                "Name": "Tower 2",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -417,
+                            258,
+                            -414,
+                            80,
+                            -629,
+                            76,
+                            -551,
+                            77,
+                            -550,
+                            -86,
+                            -493,
+                            -85,
+                            -496,
+                            79,
+                            -628,
+                            77,
+                            -629,
+                            255,
+                            -550,
+                            254,
+                            -551,
+                            395,
+                            -497,
+                            394,
+                            -499,
+                            255
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                    {
+                        "Brief": "",
+                        "Name": "Stairs",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -607,
+                                    111
+                                ]
+                            ]
+                        ],
+                        "Type": "21001",
+                        "_id": 1921263
+                    },
+                    {
+                        "Brief": "",
+                        "Name": "Exit",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -529,
+                                    255
+                                ]
+                            ]
+                        ],
+                        "Type": "22006",
+                        "_id": 1895546
+                    },
+                    {
+                        "Brief": "",
+                        "Name": "Exit",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -524,
+                                    78
+                                ]
+                            ]
+                        ],
+                        "Type": "22006",
+                        "_id": 1906045
+                    }
+                ],
+                "Rooms": [
+                    {
+                        "Area": 337,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -523,
+                            166
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -626,
+                                    248,
+                                    -425,
+                                    251,
+                                    -419,
+                                    85,
+                                    -624,
+                                    82
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1900152,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 60,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -524,
+                            322
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -547,
+                                    391,
+                                    -502,
+                                    390,
+                                    -503,
+                                    255,
+                                    -547,
+                                    253
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1906258,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 75,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -522,
+                            -3
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -547,
+                                    73,
+                                    -499,
+                                    73,
+                                    -497,
+                                    -80,
+                                    -547,
+                                    -81
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1922992,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 6
+            }
+        ],
+        "building": {
+            "Adcode": "",
+            "Address": "",
+            "Area": 2464,
+            "Brief": "",
+            "FloorsId": "1,2,3,4,5,6",
+            "FrontAngle": 0,
+            "GroundFloors": 6,
+            "High": 5,
+            "Mall": 1911602,
+            "Name": "New Building",
+            "Name_en": "",
+            "Outline": [
+                [
+                    [
+                        87,
+                        201,
+                        2,
+                        254,
+                        -181,
+                        298,
+                        -981,
+                        297,
+                        -986,
+                        36,
+                        -163,
+                        47,
+                        12,
+                        131
+                    ]
+                ]
+            ],
+            "Tel": "",
+            "Time": "",
+            "Type": "0",
+            "UnderFloors": 0,
+            "Version": -842150451,
+            "_xLon": -6.2774385622041925e+66,
+            "_yLat": -6.2774385622041925e+66
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "step-1-basic-setup",
+    "version": "1.0.0",
+    "description": "Creating a scene with some colored cubes",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel index.html --open",
+      "build": "parcel build index.html"
+    },
+    "dependencies": {
+      "three": "0.123.0"
+    },
+    "devDependencies": {
+      "@babel/core": "7.2.0",
+      "parcel-bundler": "^1.6.1"
+    },
+    "keywords": [
+      "animation",
+      "3d model",
+      "three.js",
+      "tween"
+    ]
+  }

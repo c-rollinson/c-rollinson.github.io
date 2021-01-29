@@ -1,0 +1,203 @@
+{
+    "data": {
+        "Floors": [
+            {
+                "Area": 4777,
+                "Brief": "",
+                "High": 5,
+                "ImageLayer": [
+                ],
+                "Name": "Unnamed Floor",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -499,
+                            336,
+                            369,
+                            344,
+                            296,
+                            -230,
+                            -576,
+                            -185
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                ],
+                "Rooms": [
+                    {
+                        "Area": 1023,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -258,
+                            177
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -504,
+                                    320,
+                                    -55,
+                                    313,
+                                    -86,
+                                    143,
+                                    -187,
+                                    35,
+                                    -462,
+                                    77
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1924238,
+                        "dianping_id": -1
+                    },
+                    {
+                        "Area": 438,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            103,
+                            -75
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    199,
+                                    57,
+                                    -89,
+                                    -58,
+                                    -25,
+                                    -159,
+                                    256,
+                                    -166,
+                                    178,
+                                    -53
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1910202,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 1
+            },
+            {
+                "Area": 4901,
+                "Brief": "",
+                "High": 5,
+                "ImageLayer": [
+                ],
+                "Name": "Unnamed Floor",
+                "Name_en": "",
+                "Outline": [
+                    [
+                        [
+                            -518,
+                            343,
+                            384,
+                            353,
+                            282,
+                            -236,
+                            -567,
+                            -184
+                        ]
+                    ]
+                ],
+                "PubPoint": [
+                ],
+                "Rooms": [
+                    {
+                        "Area": 1439,
+                        "AreaStatus": 1,
+                        "BrandShop": -842150451,
+                        "Brief": "",
+                        "Category": 109,
+                        "Center": [
+                            -280,
+                            67
+                        ],
+                        "MateId": 0,
+                        "Name": "",
+                        "Name_en": "",
+                        "Outline": [
+                            [
+                                [
+                                    -443,
+                                    286,
+                                    -50,
+                                    235,
+                                    19,
+                                    9,
+                                    -298,
+                                    -113,
+                                    -431,
+                                    -45,
+                                    -480,
+                                    34
+                                ]
+                            ]
+                        ],
+                        "ShopNo": "",
+                        "SortType": 0,
+                        "Type": "400",
+                        "_id": 1924402,
+                        "dianping_id": -1
+                    }
+                ],
+                "_id": 2
+            }
+        ],
+        "building": {
+            "Adcode": "",
+            "Address": "",
+            "Area": 4969,
+            "Brief": "",
+            "FloorsId": "1,2",
+            "FrontAngle": 0,
+            "GroundFloors": 2,
+            "High": 100,
+            "Mall": 1921883,
+            "Name": "New Building",
+            "Name_en": "",
+            "Outline": [
+                [
+                    [
+                        -515,
+                        342,
+                        382,
+                        354,
+                        298,
+                        -230,
+                        -578,
+                        -193
+                    ]
+                ]
+            ],
+            "Tel": "",
+            "Time": "",
+            "Type": "0",
+            "UnderFloors": 0,
+            "Version": -842150451,
+            "_xLon": -6.2774385622041925e+66,
+            "_yLat": -6.2774385622041925e+66
+        }
+    }
+}

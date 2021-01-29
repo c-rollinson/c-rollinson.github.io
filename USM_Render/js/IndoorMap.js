@@ -341,19 +341,19 @@ var default2dTheme = {
 
                 case 100: //hollow. u needn't change this color. because i will make a hole on the model in the final version.
                     return {
-                        color: "#F2F2F2",
+                        color: "#aec7e8",
                         opacity: 0.8,
                         transparent: true
                     }
                 case 300: //closed area
                     return {
-                        color: "#AAAAAA",
+                        color: "#aec7e8",
                         opacity: 0.7,
                         transparent: true
                     };
                 case 400: //empty shop
                     return {
-                        color: "#D3D3D3",
+                        color: "#aec7e8",
                         opacity: 0.7,
                         transparent: true
                     };
@@ -365,69 +365,69 @@ var default2dTheme = {
         switch(category) {
             case 101: //food
                 roomStyle = {
-                    color: "#1f77b4",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 102: //retail
                 roomStyle = {
-                    color: "#aec7e8",
+                    color: "#ff0000",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 103: //toiletry
                 roomStyle = {
-                    color: "#ffbb78",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 104: //parent-child
                 roomStyle = {
-                    color: "#98df8a",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 105: //life services
                 roomStyle = {
-                    color: "#bcbd22",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 106: //education
                 return {
-                    color: "#2ca02c",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 107: //life style
                 roomStyle = {
-                    color: "#dbdb8d",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 108: //entertainment
                 roomStyle = {
-                    color: "#EE8A31",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 109: //others
                 roomStyle = {
-                    color: "#8c564b",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
             default :
                 roomStyle = {
-                    color: "#c49c94",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
@@ -478,8 +478,8 @@ var default3dTheme = {
     //floor's style
     floor: {
         color: "#E0E0E0",
-        opacity: 1,
-        transparent: false
+        opacity: 0.5,
+        transparent: true
     },
 
     //selected room's style
@@ -493,19 +493,19 @@ var default3dTheme = {
 
                 case 100: //hollow. u needn't change this color. because i will make a hole on the model in the final version.
                     return {
-                        color: "#F2F2F2",
+                        color: "#aec7e8",
                         opacity: 0.8,
                         transparent: true
                     }
                 case 300: //closed area
                     return {
-                        color: "#AAAAAA",
+                        color: "#aec7e8",
                         opacity: 0.7,
                         transparent: true
                     };
                 case 400: //empty shop
                     return {
-                        color: "#D3D3D3",
+                        color: "#aec7e8",
                         opacity: 0.7,
                         transparent: true
                     };
@@ -517,70 +517,70 @@ var default3dTheme = {
         switch(category) {
             case 101: //food
                 roomStyle = {
-                    color: "#1f77b4",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 102: //retail
                 roomStyle = {
-                    color: "#aec7e8",
+                    color: "#ff0000",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 103: //toiletry
                 roomStyle = {
-                    color: "#ffbb78",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 104: //parent-child
                 roomStyle = {
-                    color: "#98df8a",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 105: //life services
                 roomStyle = {
-                    color: "#bcbd22",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 106: //education
                 return {
-                    color: "#2ca02c",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 107: //life style
                 roomStyle = {
-                    color: "#dbdb8d",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 108: //entertainment
                 roomStyle = {
-                    color: "#EE8A31",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
                 break;
             case 109: //others
                 roomStyle = {
-                    color: "#8c564b",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
             default :
                 roomStyle = {
-                    color: "#c49c94",
-                    opacity: 0.7,
+                    color: "#aec7e8",
+                    opacity: 0.5,
                     transparent: true
                 };
                 break;

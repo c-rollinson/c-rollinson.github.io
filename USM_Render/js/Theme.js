@@ -14,15 +14,15 @@ var testTheme = {
     building: {
         color: "#000000",
         opacity: 0.1,
-        transparent: false,
-        depthTest: false
+        transparent: true,
+        depthTest: true
     },
 
     //floor's style
     floor: {
         color: "#E0E0E0",
         opacity: 1,
-        transparent: false
+        transparent: true
     },
 
     //selected room's style
@@ -116,7 +116,7 @@ var testTheme = {
                 break;
             case 109: //others
                 roomStyle = {
-                    color: "#D3D3D3",
+                    color: "#aec7e8",
                     opacity: 0.7,
                     transparent: true
                 };
@@ -134,7 +134,7 @@ var testTheme = {
     //room wires' style
     strokeStyle: {
         color: "#5C4433",
-        opacity: 0.5,
+        opacity: 1,
         transparent: true,
         linewidth: 1
     },
