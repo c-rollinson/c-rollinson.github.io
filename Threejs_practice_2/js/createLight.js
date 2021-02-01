@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "three.js";
 
 export default function createLight() {
   const light = new THREE.PointLight(0xffffff, 1, 1000);

@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Document</title>
+    <script> var frame = 0; </script>
 </head>
 <body>
     <h1>Heading Title</h1>
-    
+        <div class = "div1">
+            <h2> This is the heading of the div 1</h2>
+            <p> this is some text</p>
+        </div>
+    <div style="
+        height: 200px;
+        background-image: url(sprite.png);"
+        onclick="
+        { frame++ };
+        this.style.backgroundPosition = { frame * 300 } + 'px';
+        }"
+        
+        >This is div 2
+        
+    </div>
 </body>
 </html>
