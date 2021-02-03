@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>fabric.js group, grid and snap to grid</title>
+
+
+</head>
+
+<body>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <style>
+            canvas {
+                border: 1px solid #ccc;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var canvas = new fabric.Canvas('c', { selection: false });
+                var grid = 60;
+
+
+                // create grid
+                for (var i = 0; i < (780 / grid); i++) {
+                    for (var j = 0; j < (780 / grid); j++) {
+                        canvas.add(new fabric.Line([i * grid, 0, i * grid, 780], { stroke: '#ccc', selectable: false }));
+                        canvas.add(new fabric.Line([0, i * grid, 780, i * grid], { stroke: '#ccc', selectable: false }));
+                        canvas.add(new fabric.Rect({
+                            width: 50, height: 50, stroke: '#faa', fill: 'transparent', top: 5 + (grid * i), left: 5 + (grid * j), lockMovementX: true,
+                            lockMovementY: true, hasControls: false, hoverCursor: 'pointer'
+                        }))
+                    }
+                }
+
+                canvas.on('object:selected', function (e) {
+                    e.target.active = false
+                    e.target.fill === 'transparent' ? e.target.setFill('#f7a308') : e.target.setFill('transparent')
+                    // canvas.renderAll();
+                });
+        
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <canvas id="c" width="780" height="780"></canvas>
+    </body </html>
+
+
+
+</body>
+
+</html>

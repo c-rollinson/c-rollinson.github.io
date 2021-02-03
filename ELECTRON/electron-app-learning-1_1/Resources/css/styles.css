@@ -1,0 +1,30 @@
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Small divider to add space between two buttons */
+  .divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+h1{
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:#1EAEDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

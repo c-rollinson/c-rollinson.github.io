@@ -1,0 +1,21 @@
+{
+  "name": "electron-app-learning-1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Conor Rollinson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.2",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7"
+  },
+  "description": ""
+}

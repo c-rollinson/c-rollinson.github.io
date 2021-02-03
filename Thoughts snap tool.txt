@@ -1,8 +1,0 @@
-Theory code for a snapping tool for measurements
-
-function straightlines (mousePosition)
-if ((start pixel X / Y value ) - (current mouse pixel X/Y value) =<20px) && key "shift" == pressed
-	{
-	(current mouse pixel X/y) = (start pixel X/Y value);
-	}
-	return (mousePosition);
