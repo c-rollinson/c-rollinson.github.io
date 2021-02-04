@@ -15,7 +15,8 @@
     "electron-packager": "^15.2.0"
   },
   "dependencies": {
-    "dat.gui": "^0.7.7"
+    "dat.gui": "^0.7.7",
+    "jquery": "^3.5.1"
   },
   "description": ""
 }

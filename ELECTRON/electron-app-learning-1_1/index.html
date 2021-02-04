@@ -4,16 +4,23 @@
 <br>
 <h1>Main page</h1> 
 
+<div class="divider2"></div>
 <div class="container">
-  <button id="mybutton">Save text file</button>
+  <button id="mybutton" title="Save a text file">Save text file</button>
   <div class="divider"></div>
-  <button id="loadnewwindow" class="button-primary"> Google </button>
+  <button id="loadnewwindow" class="button-primary" title="Open browser to google.com"> Google </button>
   <div class="divider"></div>
-  <button id="newWindowDrawing" class="button">New canvas test</button> 
+  <button id="newWindowDrawing" class="button" title="Test: HTML canvas">New canvas test</button> 
   <div class="divider"></div>
-  <button id="THREEJsTransparentCube" class="button-primary">Something Neat</button> 
+  <button id="THREEJsTransparentCube" class="button-primary" title="THREE.js test. Press 'esc' to close">Something Neat</button> 
   <div class="divider"></div>
-  <button id="TWOJsDrawing" class="button">New Twos Canvas Test</button>
+  <button id="TWOJsDrawing" class="button" title="Test: TWO.js canvas">New Twos Canvas Test</button>
 </div>
-<script src="./app.js"></script>
+<div class="container">
+  <button id="2D_map" class ="button-primary" title="Create/edit a 2D map"> 2D map tool </button>
+  <div class="divider"></div>
+  <button id="3D_map" class ="button-primary" title="View 3D map"> 3D map tool </button>
+</div>
+
+<script src="./save_function.js"></script>
 <script src="./ipcRender.js"></script>

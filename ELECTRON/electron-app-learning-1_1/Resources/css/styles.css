@@ -1,15 +1,26 @@
 .container {
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
   /* Small divider to add space between two buttons */
-  .divider{
-    width:5px;
-    height:auto;
-    display:inline-block;
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+.divider2{
+  height: 100px;
+  display: inline-block;
+}
+
+.center-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
