@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require("electron");
 const { ipcMain } = require( "electron" );
 const remote = require("electron").remote;
+const { menu2D, menu3D } = require("./menu.js");
 //  https://www.electronjs.org/docs/api/browser-window
 
 //  Main window. Consider making this a small vertical popup with 
@@ -103,7 +104,6 @@ ipcMain.on("btnclick_5",  (e) => {
   });
   e.sender.send("button_5-task-finished", "yes");
 });
-
 
 //  New window 5: 2D map tool
 ipcMain.on("btnclick_6",  (e) => {

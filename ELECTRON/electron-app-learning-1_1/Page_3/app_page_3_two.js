@@ -55,8 +55,7 @@ let ctx = elem.getContext("2d");
 elem.width = window.innerWidth;
 elem.height = window.innerHeight;
 const params = {
-    width = elem.width,
-    height = elem.height
+fullscreen: true
 };
 
 let two = new Two(params).appendTo(elem);

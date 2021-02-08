@@ -1,4 +1,5 @@
 //  https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event
+const { remote } = require ("electron")
 const { Menu, MenuItem } = remote
 
 const menu = new Menu()
@@ -14,9 +15,8 @@ window.addEventListener('contextmenu', (e) => {
 }, false)
 
 
-
 const menu2 = new Menu()
-menu2.append(new MenuItem({ label: 'MenuItem3', click() { console.log('item 1 clicked') } }))
+menu2.append(new MenuItem({ label: 'Quit', click() {window.quit()} }))
 menu2.append(new MenuItem({ type: 'separator' }))
 menu2.append(new MenuItem({ label: 'MenuItem4', type: 'checkbox', checked: false }))
 
@@ -28,3 +28,4 @@ window.addEventListener('keydown', (e) => {
       menu2.popup( { window: remote.getCurrentWindow() })
     };
 }, false)
+
