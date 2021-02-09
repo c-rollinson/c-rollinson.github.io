@@ -5,22 +5,21 @@
 <h1>Main page</h1> 
 
 <div class="divider2"></div>
-<div class="container">
-  <button id="mybutton" title="Save a text file">Save text file</button>
-  <div class="divider"></div>
-  <button id="loadnewwindow" class="button-primary" title="Open browser to google.com"> Google </button>
-  <div class="divider"></div>
-  <button id="newWindowDrawing" class="button" title="Test: HTML canvas">New canvas test</button> 
-  <div class="divider"></div>
-  <button id="THREEJsTransparentCube" class="button-primary" title="THREE.js test. Press 'esc' to close">Something Neat</button> 
-  <div class="divider"></div>
-  <button id="TWOJsDrawing" class="button" title="Test: TWO.js canvas">New Twos Canvas Test</button>
-</div>
-<div class="container">
-  <button id="2D_map" class ="button-primary" title="Create/edit a 2D map"> 2D map tool </button>
-  <div class="divider"></div>
-  <button id="3D_map" class ="button-primary" title="View 3D map"> 3D map tool </button>
+<div class="button-wrap"></div>
+  <div class="verticalContainer">
+    <button display= "block" id="mybutton" title="Save a text file">Save text file</button>
+    <button display= "block" id="loadnewwindow" class="button-primary" title="Open browser to google.com"> Google </button>
+    <button display= "block" id="newWindowDrawing" class="button" title="Test: HTML canvas">New canvas test</button> 
+    <button display= "block" id="THREEJsTransparentCube" class="button-primary" title="THREE.js test. Press 'esc' to close">Something Neat</button> 
+    <button display= "block" id="TWOJsDrawing" class="button" title="Test: TWO.js canvas">New Twos Canvas Test</button>
+    
+    <button display= "block" id="2D_map" class ="button-primary" title="Create/edit a 2D map"> 2D map tool </button>
+    <div class="divider2"></div>
+
+    <button display= "block" id="3D_map" class ="button-primary" title="View 3D map"> 3D map tool </button>
+  </div>
 </div>
 
+<script src="./menu.js"></script>
 <script src="./save_function.js"></script>
 <script src="./ipcRender.js"></script>

@@ -5,6 +5,19 @@
   align-items: center;
 }
 
+.button-wrap{
+  display: flex;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+}
+
+.verticalContainer {
+width: 100%;
+
+}
+
   /* Small divider to add space between two buttons */
 .divider{
   width:5px;
@@ -13,7 +26,7 @@
 }
 
 .divider2{
-  height: 100px;
+  height: 10px;
   display: inline-block;
 }
 

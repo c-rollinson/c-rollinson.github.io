@@ -9,8 +9,9 @@ const { menu2D, menu3D } = require("./menu.js");
 function createWindow() {
   // Create the browser window.
   let win = new BrowserWindow({
-    width: 1200,
-    height: 800,
+    width: 300,
+    height: 550,
+    frame: false,
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true
