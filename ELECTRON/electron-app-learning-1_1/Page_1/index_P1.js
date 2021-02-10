@@ -87,6 +87,15 @@ var menuCount = 0;
         shapeActions.clickFunctionsTranslationDrag(roundedRect);
     };
 
+    //  Test function
+    exports.cloneObjectIndex = (arg) => {
+        var a = arg.clone();
+        a.rotation = Math.PI / 2;
+        two.add (a);
+        console.log(`Index: ${a.x}, ${a.y}`)
+        return a;
+    }
+
 //---------------Main loop---------------//
   
     //  Test click 

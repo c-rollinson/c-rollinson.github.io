@@ -1,10 +1,12 @@
 //  https://www.w3.org/TR/SVG11/interact.html
 //  https://javascript.info/mouse-drag-and-drop
+//  https://www.npmjs.com/package/rbush
+//  https://github.com/jonobr1/two.js/issues/491
 
 //---------------------Requires---------------------//
 const basicShapes = require ("./basicShapes");
 const two = require ("../../Resources/Libraries/TWO");
-
+const index_P1 = require ("../index_P1");
 
 //----------------Const / Variables ----------------//
 const delta = 6;        //  Min movement to differentiate a click from drag
@@ -29,21 +31,61 @@ mouseClickColourChange = (arg) => {
 };
 
 objectTranslate = (arg, event) => {
-    arg.translation.set(event.x, event.y);
+    arg.translation.x = event.x;
+    arg.translation.y = event.y;
 };
 
+cloneObject = (arg) => {
+    var a = arg.clone();
+    a.rotation = Math.PI / 2;
+    two.add (a);
+    console.log(`${a.x}, ${a.y}`)
+}
 
 //-----------------Export Functions-----------------//
 
+//  TR02
+//  Waddya know, currently doesn't work.
 exports.clickFunctionsTranslationDrag = (arg) => {
     arg._renderer.elem.style.cursor = "move";
     mouseoverOpacity(arg);
     arg._renderer.elem.addEventListener("mousedown", function (event) {
+        arg.noFill()
+        index_P1.cloneObjectIndex(arg);
         window.addEventListener("mousemove", function (event) {
-            objectTranslate(arg, event);
+            objectTranslate( arg, event);
+            console.log(`ShapeActions ${arg.x}, ${arg.y}`)
         });
     });
-    arg._renderer.elem.addEventListener("mouseup", function(event, arg) {
+}
+
+
+
+
+
+//  This function DOES work, however cannot 'drop' the object once clicked
+//  resolving "remoteEventListener" and / or setting arg to NULL would fix. 
+//  As a workaround solution translation will be handled by function TR02
+
+//exports.clickFunctionsTranslationDrag = (arg) => {
+exports.placeHOLDERTITLENOTREAL =(arg) => { 
+    arg._renderer.elem.style.cursor = "move";
+    mouseoverOpacity(arg);
+    
+    var abc = 0;
+    arg._renderer.elem.addEventListener("mousedown", function (event) {
+        abc = 1;
+        console.log(`${abc} ,  ${arg.id}`);
+        window.addEventListener("mousemove", function (event) {
+            if (abc == 1){
+            objectTranslate(arg, event);
+            }
+        });
+    });
+    arg._renderer.elem.addEventListener("mouseup", function(event) {
+        abc = 2;
+        console.log(`${abc} ,  ${arg.id}`);
+        arg._renderer.elem.removeEventListener("mousedown", )
         //arg._renderer.elem.removeEventListener("mousemove", mouseMoveHandle (event), false);
     });
 };
