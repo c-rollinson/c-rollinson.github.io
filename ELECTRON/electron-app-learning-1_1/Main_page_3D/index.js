@@ -19,7 +19,7 @@ const jim = new User ("Jim", 37, "jim@jimMail.com");
 console.log (jim.getUserStates());
 
 */
-
+/*
 $(function() {
 
     var two = new Two({
@@ -27,21 +27,19 @@ $(function() {
       autostart: true
     }).appendTo(document.body);
 
-    var rect = two.makeRectangle(two.width / 2, two.height / 2, 250, 250);
-    rect.noStroke().fill = getRandomColor();
+    var apple = two.makeRectangle(two.width / 2, two.height / 2, 250, 250);
+    apple.noStroke().fill = getRandomColor();
 
     // Update the renderer in order to generate corresponding DOM Elements.
     two.update();
 
-    $(rect._renderer.elem)
+    $(apple._renderer.elem)
       .css('cursor', 'pointer')
       .click(function(e) {
-        rect.fill = getRandomColor();
+        apple.fill = getRandomColor();
       });
 
-    two.bind('update', function(frameCount, timeDelta) {
-      rect.rotation = frameCount / 60;
-    });
+
 
     function getRandomColor() {
       return 'rgb('
@@ -51,3 +49,35 @@ $(function() {
     }
 
   });
+  */
+
+
+ var two = new Two({
+  fullscreen: true,
+  autostart: true
+}).appendTo(document.body);
+
+var path = two.makeStar(two.width / 2, two.height / 2, 37, 75, 7);
+path.fill = 'none';
+path.stroke = 'rgb(255, 100, 100)';
+path.linewidth = 20;
+path.opacity = 0.75;
+
+two.update();
+
+path._renderer.elem.style.cursor = 'pointer';
+
+path._renderer.elem.addEventListener('click', function() {
+  path.stroke = 'rgb('
+    + Math.floor(Math.random() * 255) + ','
+    + Math.floor(Math.random() * 255) + ','
+    + Math.floor(Math.random() * 255) + ')';
+}, false);
+
+path._renderer.elem.addEventListener('mousemove', function() {
+	path.opacity = 1;
+}, false);
+
+path._renderer.elem.addEventListener('mouseout', function() {
+  path.opacity = 0.75;
+});

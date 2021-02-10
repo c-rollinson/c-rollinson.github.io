@@ -1,8 +1,11 @@
+const two = require ("../../Resources/Libraries/TWO");
+const shapeActions = require ("./shapeActions");
+
 //--------------- Class Exports ---------------//
 
 class Circle {
     constructor (){
-    this.circleSize = 100;
+    this.circleSize = 50;
     }
 };
 
@@ -10,7 +13,7 @@ class Rectangle {
     constructor () {
         this.width = 100;
         this.height = 150;
-    }
+   }
 };
 
 class Star {
@@ -39,7 +42,7 @@ exports.RoundedRectangle = RoundedRectangle;
 //---------------Function Exports---------------//
 
 exports.paramCircle = (circle) => {
-    circle.fill = getRandomColour();
+    circle.fill = "#F0FF00";
     circle.stroke = "green";
     circle.linewidth = 5; 
     console.log (`Circle ${circle.id} made at ${event.offsetX}, ${event.offsetY}`);
@@ -72,9 +75,18 @@ exports.paramRoundedRect = (roundedRect) => {
 
 //---------------Functions---------------//
 
-getRandomColour = () => {
+//  For exporting
+exports.getRandomColour = () => {
     return "rgb("
     + Math.floor(Math.random() * 255) + ","
     + Math.floor(Math.random() * 255) + ","
     + Math.floor(Math.random() * 255) + ")";
-}
+};
+
+//  For use within this script
+getRandomColour2 = () => {
+    return "rgb("
+    + Math.floor(Math.random() * 255) + ","
+    + Math.floor(Math.random() * 255) + ","
+    + Math.floor(Math.random() * 255) + ")";
+};

@@ -2,11 +2,13 @@ const { remote } = require ("electron")
 const { Menu, MenuItem } = remote
 
 const menu = new Menu()
-menu.append(new MenuItem({ label: "No draw", type: "radio", id: "5", checked: false, click() { menuNumb = 5, console.log(`id 5 chosen, menuNumb: ${menuNumb}`)} }))
-menu.append(new MenuItem({ label: "Rectangle", type: "radio", id: ("1"), checked: false, click() { menuNumb = 1, console.log(`id 1 chosen, menuNumb: ${menuNumb}`)} }))
-menu.append(new MenuItem({ label: "Circle", type: "radio", id: "2", checked: false, click() { menuNumb = 2, console.log(`id 2 chosen, menuNumb: ${menuNumb}`)} }))
-menu.append(new MenuItem({ label: "Star", type: "radio", id: "3", checked: false, click() { menuNumb = 3, console.log(`id 3 chosen, menuNumb: ${menuNumb}`)} }))
-menu.append(new MenuItem({ label: "Rounded Rectangle", type: "radio", id: "4", checked: false, click() { menuNumb = 4, console.log(`id 4 chosen, menuNumb: ${menuNumb}`)} }))
+menu.append(new MenuItem({ label: "No draw", type: "radio", id: "1", checked: true, click() { menuNumb = 1, console.log(`id 1 chosen, menuNumb: ${menuNumb}`)} }))
+menu.append(new MenuItem({ label: "Rectangle", type: "radio", id: "2", checked: false, click() { menuNumb = 2, console.log(`id 2 chosen, menuNumb: ${menuNumb}`)} }))
+menu.append(new MenuItem({ label: "Circle", type: "radio", id: "3", checked: false, click() { menuNumb = 3, console.log(`id 3 chosen, menuNumb: ${menuNumb}`)} }))
+menu.append(new MenuItem({ label: "Star", type: "radio", id: "4", checked: false, click() { menuNumb = 4, console.log(`id 4 chosen, menuNumb: ${menuNumb}`)} }))
+menu.append(new MenuItem({ label: "Rounded Rectangle", type: "radio", id: "5", checked: false, click() { menuNumb = 5, console.log(`id 5 chosen, menuNumb: ${menuNumb}`)} }))
+menu.append(new MenuItem({ label: "Mouseover Star", type: "radio", id: "6", checked: false, click() { menuNumb = 6, console.log(`id 6 chosen, menuNumb: ${menuNumb}`)} }))
+menu.append(new MenuItem({ label: "Mouseclick Rectangle", type: "radio", id: "7", checked: false, click() { menuNumb = 7, console.log(`id 7 chosen, menuNumb: ${menuNumb}`)} }))
 menu.append(new MenuItem({ type: "separator" }))
 menu.append(new MenuItem({ label: "Exit", click() {handleClick = 4, closeWindow()}}))  //  Quit function not working. Wrong syntax?
 
